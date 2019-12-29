@@ -34,3 +34,9 @@ export function signUpFailure() {
     type: '@auth/SIGN_UP_FAILURE',
   };
 }
+
+export function signOut() {
+  return {
+    type: '@auth/SIGN_OUT',
+  };
+}
